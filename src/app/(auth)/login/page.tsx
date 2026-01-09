@@ -46,8 +46,9 @@ export default function LoginPage() {
       setIsLoading(false);
     }
   };
+
   return (
-    <div className="min-h-screen bg-gradient-to-br from-primary-600 to-purple-700 flex items-center justify-center p-4">
+    <div className="min-h-screen flex items-center justify-center p-4">
       <div className="w-full max-w-md">
         {/* Logo */}
         <div className="text-center mb-8">
@@ -90,7 +91,7 @@ export default function LoginPage() {
                 <input
                   type="checkbox"
                   className="rounded border-gray-300 text-primary-600 focus:ring-primary-500"
-                  />
+                />
                 <span className="text-gray-600 dark:text-gray-400">Remember me</span>
               </label>
 
